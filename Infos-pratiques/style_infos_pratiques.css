@@ -1,0 +1,133 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.temps {
+    background: linear-gradient(to bottom, #ea5a0dda 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 30px;
+    margin: 15px;
+    border-radius: 20px;
+    width: 50vw;
+
+}
+
+.temps,
+.comparateur,
+.conseils span {
+    display: inline-block;
+    margin: 10px;
+    font-size: 2vw;
+    font-family: "Dyno";
+}
+
+.conseil_compa {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.comparateur {
+    background: linear-gradient(to bottom, #ea5a0dda 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 2vw;
+}
+
+.conseils {
+    background: linear-gradient(to bottom, #ea5a0dda 0%, rgba(255, 255, 255, 0) 100%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.saison_titre {
+    font-size: 1.5vw;
+    padding: 10px;
+    font-family: "cicle";
+}
+
+.saisons ul li {
+    font-size: 1vw;
+    padding-left: 10%;
+    list-style-type: none;
+    font-family: "Cicle";
+}
+
+.conseils ol li {
+    font-size: 1vw;
+    margin-left: 10%;
+    padding: 10px 0;
+    font-family: "Cicle";
+}
+
+.comparateur ul li {
+    font-size: 1vw;
+    margin-left: 10%;
+    font-family: "Cicle";
+}
+
+@media screen and (max-width: 1500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .temps {
+        padding: 30px;
+        margin: 15px;
+        border-radius: 20px;
+        width: 70%;
+    
+    }
+    
+    .temps,
+    .comparateur,
+    .conseils span {
+        font-size: 5vw;
+    }
+    
+    .conseil_compa {
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    .comparateur {
+        padding: 30px;
+        border-radius: 20px;
+        font-size: 5vw;
+    }
+    
+    .conseils {
+        padding: 30px;
+        border-radius: 20px;
+    }
+    
+    .saison_titre {
+        font-size: 4vw;
+        padding: 10px;
+    }
+    
+    .saisons ul li {
+        font-size: 3vw;
+        padding-left: 10%;
+        list-style-type: none;
+    }
+    
+    .conseils ol li {
+        font-size: 3vw;
+        margin-left: 10%;
+        padding: 10px 0;
+    }
+    
+    .comparateur ul li {
+        font-size: 3vw;
+        margin-left: 10%;
+        font-family: "Cicle";
+    }
+}
